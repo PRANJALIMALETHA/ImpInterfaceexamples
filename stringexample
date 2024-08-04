@@ -1,0 +1,36 @@
+. Using String.valueOf()
+java
+Copy code
+int number = 123;
+String str = String.valueOf(number);
+System.out.println(str); // Output: "123"
+2. Using Integer.toString()
+java
+Copy code
+int number = 123;
+String str = Integer.toString(number);
+System.out.println(str); // Output: "123"
+3. Using String Concatenation
+java
+Copy code
+int number = 123;
+String str = number + ""; // Implicitly converts number to string
+System.out.println(str); // Output: "123"
+Python
+1. Using str() Function
+python
+Copy code
+number = 123
+str_number = str(number)
+print(str_number)  # Output: "123"
+2. Using String Formatting
+python
+Copy code
+number = 123
+str_number = f"{number}"
+print(str_number)  # Output: "123"
+python
+Copy code
+number = 123
+str_number = "{}".format(number)
+print(str_number)  # Output: "123"
