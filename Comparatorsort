@@ -1,0 +1,29 @@
+406. Queue Reconstruction by Height
+class Solution {
+    public int[][] reconstructQueue(int[][] people) {
+        Arrays.sort(people,new Comparator<int []>()
+        {
+            public int compare(int a[],int b[])
+            {
+                if(a[0]==b[0])//if equal sort in asending order
+                {
+                    return a[1]-b[1];
+                }
+                return b[0]-a[0]; it checks that if the element at index 0 of 2d matrix  are not equal than sort the element such that the largest element has highest priority 
+            
+                 here the largest element is checked in 2d array  [element,....][element,.....]
+}
+
+        });
+
+        List<int []>li=new ArrayList<>();
+        for(int person[]:people)
+        {
+            li.add(person[1],person);
+        }
+
+        return li.toArray(new int [li.size()][2]);
+
+
+    }
+}
