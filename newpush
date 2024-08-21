@@ -1,0 +1,7 @@
+First, fetch the changes from the remote repository to make sure you are aware of what is on the remote:
+
+git fetch origin
+
+git push -u origin main --force
+
+git log --oneline
