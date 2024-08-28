@@ -1,0 +1,21 @@
+to sort on the basis of index
+
+   class ELEMENT  implements Comparable<ELEMENT>{
+        int value;
+        int index;
+        ELEMENT(int value,int index)
+        {
+            this.value=value;
+            this.index=index;
+        }
+
+        @Override
+        public int compareTo(ELEMENT obj)
+        {
+            if(this.value==obj.value){
+                return Integer.compare(this.index,obj.index);
+
+            }
+            return Integer.compare(this.value,obj.value);
+        }
+    }
