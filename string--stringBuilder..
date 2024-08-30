@@ -1,0 +1,14 @@
+first of all 
+
+
+-1-compareTo()-2- 
+this method lexografically compare 
+
+return negative integer when the caller string is lexographically smaller than tha argument string
+for example in this 1 is lexographically smaller than 2 than it will return a negative value;
+
+
+if both the value are equal than it return 0
+
+and 1<2 --return negative
+2<1---return postive
