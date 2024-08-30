@@ -1,0 +1,10 @@
+     int char1 = s.charAt(i) - '0';
+            int char2 = s.charAt(i + 1) - '0';
+
+
+this will do it 
+
+
+
+but if you will use parse int function that will not  wotrk because
+Integer.parseInt(char)--->this will change the char ->Integer/ 
