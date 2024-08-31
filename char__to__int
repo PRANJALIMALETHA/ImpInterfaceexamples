@@ -1,0 +1,10 @@
+
+-----------------------------------------------------------------------------------------------------
+int value=character-'0';
+
+this work because ascii value of '0' is 48 and '1' this is 49 so  49-48=1 which is int value
+5 example
+2 (asciii value is 50 and of zero is 48 so 50-48=2)
+3 (ascii value is 51 and of zero is 48 so 51-48=3);
+4 (ascii value is 52 and of zero is 48 so 52-48=4)
+---------------------------------------------------------------------------------------------------
