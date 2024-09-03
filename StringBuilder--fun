@@ -1,0 +1,20 @@
+String builder two operation
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+StringBuilder to Integer
+to convert a stringBuilder to integer you need to first convert it into string because string has function  parseInt
+
+function -->Integer.parseInt(val);
+this will change string into integer
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Integer to String
+
+function  Integer.toString(val)
+
+this will change integer to string-->
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
