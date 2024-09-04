@@ -1,0 +1,19 @@
+BigInteger
+Yes, BigInteger is a class in Java. It is part of the java.math package and provides operations for mathematical calculations involving large integers. Unlike primitive data types like int or long, which have fixed sizes and can overflow, BigInteger can handle numbers of arbitrary precision, making it suitable for applications where large numbers are involved.
+
+
+ It represents arbitrarily large integers. Operations with BigInteger return BigInteger objects, not primitive types like int.
+import java.math.BigInteger;
+class Solution {
+    public String addStrings(String num1, String num2) {
+       BigInteger a=new BigInteger(num1);
+       BigInteger b=new BigInteger(num2);
+
+       BigInteger sum=a.add(b);
+       String sp=sum.toString();
+       return sp;
+    }
+} 
+
+like this here parseInt will not give appropriate result 
+so we will use biginteger 
